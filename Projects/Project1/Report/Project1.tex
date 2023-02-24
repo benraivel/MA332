@@ -1,6 +1,9 @@
 \documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\graphicspath{{./figures/}}
+
 \title{MA332 Project 1}
 \author{Ben Raivel}
 \begin{document}
@@ -15,6 +18,19 @@
 	For a given root $ f(x_\star) = 0$, the \emph{basin of attraction} is the set of starting values $ x_0 $ for which Newton's Method will converge to $ x_\star $.
 	
 		\subsection{Real-Valued Functions}
+		Consider the function
+		$$ g(x) = (x - 1)(x + 3) $$
+		
+		\begin{figure}[h]
+			\caption{Basins of convergence for $g(x) = (x - 1)(x + 3)$}
+			\includegraphics[scale=0.75]{figure1}
+		\end{figure}
+	
+		\begin{figure}[h]
+			\caption{Basins of convergence for $g(x) = (x - 4)(x - 1)(x + 3)$}
+			\includegraphics[scale=0.75]{figure2}
+		\end{figure}
+		
 		
 		\subsection{Complex-Valued Functions}
 		
